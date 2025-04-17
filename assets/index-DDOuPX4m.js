@@ -12120,7 +12120,7 @@ function CardPreview({ cardNumbers, expirationDate }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles$4.container, children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles$4.logoContainer, children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: styles$4.goldBox }),
-      isBrand && /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: `/${brandName}.png`, className: styles$4.logoBrand })
+      isBrand && /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: `./${brandName}.png`, className: styles$4.logoBrand })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `${styles$4.cardNumberBox} tx-md`, children: displayCardNumbers.map((number) => {
       return /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: styles$4.pCardNumber, children: number });
