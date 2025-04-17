@@ -1,0 +1,318 @@
+._container_q0d9p_1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 212px;
+  height: 120px;
+  background-color: #000000c4;
+  border-radius: 4px;
+  gap: 16px;
+  color: var(--white);
+  padding: 14px;
+  box-shadow: 1px 0px 5px #444;
+}
+
+._cardNumberBox_q0d9p_15 {
+  display: flex;
+  gap: 8px;
+}
+
+._logoContainer_q0d9p_20 {
+  display: flex;
+  justify-content: space-between;
+}
+
+._goldBox_q0d9p_25 {
+  width: 36px;
+  height: 22px;
+  border-radius: 4px;
+  background-color: var(--gold);
+}
+
+._logoBrand_q0d9p_32 {
+  width: 36px;
+  height: 22px;
+  border-radius: 4px;
+}
+
+._pCardNumber_q0d9p_38 {
+  width: 40px;
+  letter-spacing: 2px;
+}
+
+._cardNumberBox_q0d9p_15 > ._pCardNumber_q0d9p_38:nth-child(n + 3) {
+  font-size: 21px;
+  letter-spacing: -8px;
+  line-height: 0.7;
+}
+._input_fip8t_1 {
+  width: 100%;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  color: var(--black);
+  padding: 12px 8px;
+  &::placeholder {
+    color: var(--grey);
+  }
+
+  &:focus {
+    border: 1px solid var(--black);
+  }
+  &._isNotValid_fip8t_14 {
+    border: 1px solid var(--red);
+  }
+}
+._container_1hf2k_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+._inputForm_1hf2k_7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+._inputContainer_1hf2k_13 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+._inputBox_1hf2k_20 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  color: var(--black);
+}
+
+._titleBox_1hf2k_30 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  & p {
+    color: var(--grey);
+  }
+}
+
+._feedbackMessage_1hf2k_40 {
+  color: var(--red);
+  height: 18px;
+}
+._cardInputForm_17pi5_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+._section_tv0lf_1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+._container_tv0lf_6 {
+  width: 390px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  padding: 28px;
+  gap: 40px;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'BMHANNAPro', sans-serif;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline-style: none;
+}
+
+:root {
+  --grey: #acacac;
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ff3d3d;
+  --gold: #ddcd78;
+}
+
+.tx-xl {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tx-lg {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tx-md {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tx-sm {
+  font-size: 10px;
+  font-weight: 400;
+}
