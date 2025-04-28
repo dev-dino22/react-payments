@@ -1,1 +1,0 @@
-const o={isNotEmpty:r=>r.trim()!=="",isNumber:r=>!Number.isNaN(Number(r)),isValidLength:(r,t)=>r.length===t,isValidNumberRange:(r,t,e)=>r>=t&&r<=e,isValidExpirationDate:(r,t)=>{const e=Number(r),n=Number(t),i=new Date,u=i.getFullYear()%100,a=i.getMonth()+1;return r===""&&n===u||u<n||t===""?!0:u===n?e>=a:!1}};export{o as v};
