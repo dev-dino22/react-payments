@@ -14645,7 +14645,6 @@ function useExpirationDateInput(onSuccessValidate, onSuccessNextInput, onExpirat
       }
     });
     onExpirationDateChange([nextMonth, nextYear]);
-    console.log("nextMonth", nextMonth.length);
     if (nextMonth.length === 2 && nextYear.length === 2 && monthError === "" && yearError === "") {
       onSuccessValidate(true);
       onSuccessNextInput();
